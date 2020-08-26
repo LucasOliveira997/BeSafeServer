@@ -3,7 +3,7 @@ const http = require('http').createServer(app)
 const io = require('socket.io')(http);
 
 app.get('/', (req, res) => {
-    res.send("Node Server is running. Yay!!")
+    res.send("You are not alone, you are strong! Be safe! :) - Você não está sozinhe! Seja forte! Be Safe! :)")
 })
 
 io.on('connection', socket => {
